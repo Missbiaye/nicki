@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title> Decouvertes de quelques merveilles du monde</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="first">
+<nav>
+        
+        <div class="navbar">
+            <div class="logo">
+                <img src="compass.png" alt="">
+                <span>Mia tours</span>
+            </div>
+
+            <ul class="menu">
+                <li><a href="LTI123_Diouf_Aminata_Biaye_Madeleine.html">Accueil</a></li>
+                <li><a href="Mecque html.html">Mecque</a></li>
+                <li><a href="Iles des maldives html.html"> Iles des Maldives</a></li>
+                <li><a href="Basilique_Notre_Dame_de_la_Paix html.html">Notre Dame de la Paix</a></li>
+                <li><a href="dubai html.html">Dubaï</a></li>
+            </ul>
+            <div class="hamburger">
+                <img id="hamb" src="hamburger.png" alt="">
+            </div>
+
+        </div>    
+    </nav>
+    
+        <div class="content">
+            <div class="text"
+            style=" 
+            font-weight: 600; 
+            color: transparent; 
+           
+            background: url(back.png);
+            -webkit-background-clip: text;
+            background-clip: text;
+
+            background-position: 0 0;
+            animation: back 20s linear infinite;
+            font-family: 'poppins', sans-serif;
+            text-align: center;
+            "
+>
+                OSEZ L'AVENTURE AVEC NOTRE SITE!
+            </div>
+            
+        </div>
+    </div>
+    
+
+    <div class="second">
+
+        <div class="visit">
+            Veuillez choisir votre destination
+
+        </div>
+
+
+
+        <div class="places">
+            <section>
+                <div class="place" style="background-image: url(dubai1.jpeg);"><a href="dubai html.html">
+                    <p>Dubai</p>
+                </a></div>
+                <div class="place" style="background-image: url(maldives.jpg);"><a href="Iles des maldives html.html">
+                    <p>Iles des Maldives</p>
+                </a> </div>
+            </section>
+
+
+            <section>
+                <div class="place" style="background-image: url(smthing.jpeg);"><a href="Basilique_Notre_Dame_de_la_Paix html.html">
+                    <p>Notre dame de la paix</p>
+                </a> </div>
+                <div class="place" style="background-image: url(Mecque.jpg);"><a href="Mecque html.html">
+                    <p>Mecque</p>
+                </a> </div>
+            </section>
+        </div>
+
+
+    </div>
+
+
+
+
+
+    <footer>
+            <div class="footer">
+                <div class="footercontainer" style="color: whitesmoke;background-color: rgba(0, 0, 0, 0.795);">
+                    <div>
+                    <form class="formulaire">
+                        <br> 
+                            <h3>Avez vous appréciez ce site ?!</h3>
+                            <div>
+                                <label for="NometPr&eacutenom">Nom et Pr&eacutenoms:</label><br>
+                                <input type="text" placeholder="Nom et Prenom">
+                            </div>
+                            <div>
+                                <label>Commentaires:</label><br>
+                                <textarea placeholder="Veuiller remplir ce champs svp"name="commentaire" cols="30" rows="2"></textarea><br>
+                                <input type="submit" value="commenter">
+                            </div>
+                            <div>
+                         <br>
+                  </div>
+             </div>
+    </footer>
+
+
+
+    <script>
+        var btn_hamb = document.getElementById("hamb");
+        var menu = document.getElementsByClassName("menu")[0];
+
+        btn_hamb.addEventListener('click', display_menu);
+
+        function display_menu(){
+            if(menu.style.display == "none"){
+                menu.style.display = "flex";
+            }else{
+                menu.style.display = "none";
+            }
+        }
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,104 @@
+.first{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    background-color: blueviolet;
+    height: 12%;
+    width: 100;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items:center ;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.menu{
+    width: 40%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30%;
+}
+a{
+    color:beige;
+    text-decoration: none;
+}
+li:hover{
+    transform: translateY(-5px);
+    transition: 1s;
+}
+.hamburger{
+    display: flex;
+    align-items: center;
+    margin-right: 2%;
+}
+
+#hamb:hover{
+    cursor: pointer;
+}
+#suite {
+    width: 100%;
+    margin-top: 0px;
+    height: 600px;
+    background-image:url(fond3.jpeg) ;
+    background-size: cover;
+}#presentation{
+    width: 40%;
+    height: 100px;
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 9%;
+    border-radius: 10%;
+    margin-top:10px;
+    
+}
+#presentation1{
+    width: 40%;
+    height: 500px;
+    float: left;
+    margin-left:3% ;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    margin-top:10px;
+     }
+     #presentation p{
+    
+        text-align: justify;
+        color: white;
+    }
+    #suite h1{
+        text-align: center;
+        color: orange;
+    }
+   nav img{
+        width: 40px;
+        height: 40px;
+    } 
+p {
+    font-size: 22px;
+}
+    p li {
+        color: beige;
+    }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
